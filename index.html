@@ -3,28 +3,39 @@ layout: default
 ---
 
 
- <div class="post-container">
+<div class="post-container">
 
-  <h2 class="post-title">Blog</h2>
+  <h2 class="site-title">{{ site.title }}</h2>
 
   <hr>
 
   {% for post in site.posts %}
-    <div class ="post-preview">
-      <span class="post-title">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </span>
+  <div class ="post-preview">
+    <span class="post-title">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}
+      </a>
+    </span>
 
-      <span class="post-time">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </span>
+    <span class="post-time">
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    </span>
 
+    <span class="post-excerpt">
+      <p>{{ post.excerpt }}</p>
+    </span>
 
-    </div>
+    <span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        Read more...
+      </a>
+    </span>
 
-    {% endfor %}
+  </div>
+
+  <hr>
+
+  {% endfor %}
 
 
 

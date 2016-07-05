@@ -1,18 +1,16 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Dan Berger's blog
+email: dsberger@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
+permalink: "/:year/:month/:day/:title"
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: ""
 
 # Social icons
-facebook: username
-linkedin: username
-github: username
-deviantart: username
-codepen: username
+twitter: dsberger
+github: dsberger
 
 footer: © Taken theme
 
