@@ -3,7 +3,7 @@ title: Dan Berger's blog
 email: dsberger@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: "/:year/:month/:day/:title"
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://dsberger.github.io" # the base hostname & protocol for your site
 
 # Sidebar settings
 description: ""
