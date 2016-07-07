@@ -11,7 +11,7 @@ Today I had a major breakthrough on feature testing in Node.
 
 I originally learned web development in Ruby on Rails. Rails has been around for a decade, and the community has a commitment to test-driven development, so the suite of testing tools is very robust and stable. This has two consequences for me, now, trying to learn Node.
 
-One, where Rails tends to have one established solution that is very well documented, Node has many options with varying levels of usability. If you're writing feature tests for a Rails app, you're going to use Capybara inside Rspec. In the Node ecosystem, there is Zombie.js, Protractor, Intern, and the package I finally settled on, Nightwatch. (I probably missed some in that list!) There doesn't seem to be ay consensus about which way is _the best_, which is what I want to hear as a learner.
+One, where Rails tends to have one established solution that is very well documented, Node has many options with varying levels of usability. If you're writing feature tests for a Rails app, you're going to use Capybara inside Rspec. In the Node ecosystem, there is Zombie.js, Protractor, Intern, and the package I finally settled on, Nightwatch. (I probably missed some in that list!) There doesn't seem to be any consensus about which way is _the best_, which is what I want to know as a learner.
 
 Two, everything is so turnkey in Rails that I didn't have to tangle with the details of testing. Figuring out how to create and maintain a separate test environment wasn't something I had ever done before. I think I got it right and my test suite will be easy to expand now, but who knows!
 
