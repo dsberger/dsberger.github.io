@@ -1,9 +1,12 @@
 # Site settings
 title: Dan Berger's blog
+author: Dan Berger
 email: dsberger@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: "/:year/:month/:day/:title"
 url: "https://dsberger.github.io" # the base hostname & protocol for your site
+gems:
+  - jekyll-feed
 
 # Sidebar settings
 description: ""

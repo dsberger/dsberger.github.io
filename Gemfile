@@ -1,3 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll'
+
+group :jekyll_plugins do
+  gem 'jekyll-compose'
+  gem 'jekyll-feed'
+end
